@@ -1,5 +1,5 @@
 <?php
-$destino="deep_tec@hotmail.com"
+$destino="deep_tec@hotmail.com";
 
 $tipo_doc = $_port["tipo_doc"];
 $carrera = $_port["carrera"];
