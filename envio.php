@@ -4,13 +4,13 @@ ini_set("smtp_port","localhost");
 ini_set('sendmail_from','deep_tec@hotmail.com');
 
 //datos del formulario
-$tipo_doc = strip_tags($_POST['tipo_doc']);
-$carrera = strip_tags($_POST['carrera']);
-$semestre = strip_tags($_POST['semestre']);
-$materia = strip_tags($_POST['materia']);
-$unidad = strip_tags($_POST['unidad']);
-$profesor = strip_tags($_POST['profesor']);
-$comentarios = strip_tags($_POST['comentarios']);
+$tipo_doc = strip_tags($_GET['tipo_doc']);
+$carrera = strip_tags($_GET['carrera']);
+$semestre = strip_tags($_GET['semestre']);
+$materia = strip_tags($_GET['materia']);
+$unidad = strip_tags($_GET['unidad']);
+$profesor = strip_tags($_GET['profesor']);
+$comentarios = strip_tags($_GET['comentarios']);
 //datos archivo
 $nameFile = $_FILES['file']['name'];
 $sizeFile = $_FILES['file']['size'];
