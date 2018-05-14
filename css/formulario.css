@@ -1,0 +1,70 @@
+#fondo_form{
+    background: #333;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form{
+    width: 300px;      /*contenedor de formulario, width contine el tamaño de él*/
+    margin: auto;   /*centra el formulario*/
+    background: rgba(100,30,30,0.9);    /*da color al fondo del formulario*/
+    padding: 10px 20px;  /*le da un espacio dentro del formulario*/
+    box-sizing: border-box;  
+    margin-top: 10px;   /*da un espacio por fuera del espacio del form hacia arriba*/
+    border-radius: 20px; /*bordea el formulario*/
+    box-shadow: 0px 1px 10px black;
+}
+
+#titulo_form{
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input , textarea{
+    width: 100%;    /*100% del contenedor form*/
+    margin-bottom: 10px;  /*margen con respecto a los demas input*/
+    padding: 4px;   /*tamaño de los input*/
+    box-sizing: border-box;
+    font-size: 13px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#file{
+    background: rgba(150, 30, 30, 0.8);
+    color: #222;
+     
+}
+
+#boton{
+    padding: 8px;
+    background: #333;
+    color: white;
+    font-size: 17px;
+}
+
+#boton:hover{
+    background: #222;
+    padding: 13px;
+    transition: all 0.2s;
+}
+
+@media (max-width:1000px){
+    
+    form{
+      width: 70%;      /*contenedor de formulario, width contine el tamaño de él, ahora se reescala cuando la pagina tiene un tamaño de 330px*/
+    }
+    
+    input, textarea{
+        padding: 8px;
+    }
+}
