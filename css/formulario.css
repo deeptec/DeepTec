@@ -61,6 +61,6 @@ textarea{
 @media (max-width:330px){
     
     form{
-      width: 96%;      /*contenedor de formulario, width contine el tamaño de él, ahora se reescala cuando la pagina tiene un tamaño de 330px*/
+      width: 500px;      /*contenedor de formulario, width contine el tamaño de él, ahora se reescala cuando la pagina tiene un tamaño de 330px*/
     }
 }
